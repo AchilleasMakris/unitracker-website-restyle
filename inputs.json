@@ -1,0 +1,342 @@
+{
+  "brand": {
+    "name": "UniTracker",
+    "mark": "U",
+    "meta": { "title": "Edition Nº 01", "subtitle": "Made for students" },
+    "filed_under": "Academic · Productivity",
+    "tagline": "One app for your courses, deadlines, and grades.",
+    "description": "Track courses and grades, stay on top of deadlines, log your attendance, and see your progress at a glance. On iOS and Android, free to start.",
+    "locale": "en",
+    "edition": "Vol. 01 / Term Nº 01",
+    "version": "iOS · Free",
+    "license": "Free · iOS & Android",
+    "primary_url": "https://apps.apple.com/app/unitracker",
+    "primary_url_label": "★ 4.8 · App Store",
+    "download_url": "https://apps.apple.com/app/unitracker",
+    "download_url_label": "Download for iOS",
+    "contact_email": "https://unitracker.userjot.com/board/all",
+    "location": "On every campus",
+    "coordinates": "4.8 ★ · 150 ratings",
+    "year": "2026",
+    "year_roman": "MMXXVI",
+    "founded": "Est. MMXXVI",
+    "rails": {
+      "right": "UniTracker — Vol. 01 · Term Nº 01 · iOS & Android",
+      "left": "Courses · Tasks · Calendar · Attendance · Notes · Stats"
+    },
+    "languages": ["EN"],
+    "status": "Live · iOS & Android"
+  },
+
+  "nav": [
+    { "label": "Features", "href": "#capabilities", "count": "06" },
+    { "label": "Modules", "href": "#labs", "count": "06" },
+    { "label": "Method", "href": "#method", "count": "04" },
+    { "label": "Docs", "href": "https://docs.unitracker.store/" },
+    { "label": "Download", "href": "https://apps.apple.com/app/unitracker" }
+  ],
+
+  "rules": {
+    "about":        { "roman": "II.",   "meta": ["About / The idea",          "•", "UniTracker / Term 01"], "pagination": "002 / 008" },
+    "capabilities": { "roman": "III.",  "meta": ["Features · What it does",    "•", "6 tools / 1 app"],      "pagination": "003 / 008" },
+    "labs":         { "roman": "IV.",   "meta": ["Modules / The toolkit",      "•", "06 of 06 shipping"],    "pagination": "004 / 008" },
+    "method":       { "roman": "V.",    "meta": ["Method / The loop",          "•", "04 steps, every term"], "pagination": "005 / 008" },
+    "work":         { "roman": "VI.",   "meta": ["Selected screens · 2026",    "•", "Built with students"], "pagination": "006 / 008" },
+    "testimonial":  { "roman": "VII.",  "meta": ["Students / On campus",       "•", "From Harvard to NYU"],  "pagination": "007 / 008" },
+    "cta":          { "roman": "VIII.", "meta": ["Download / Start the term",  "•", "Free on the App Store"], "pagination": "008 / 008" }
+  },
+
+  "hero": {
+    "label": "Built for university students",
+    "ix": "· Nº 01",
+    "headline": [
+      { "text": "Every " },
+      { "text": "course,", "em": true },
+      { "text": " deadline, and " },
+      { "text": "class", "em": true },
+      { "text": " in one place" },
+      { "text": ".", "dot": true }
+    ],
+    "lead": "UniTracker keeps your whole degree in one place. Track courses and grades, stay ahead of deadlines, log your attendance, and see exactly where you stand &mdash; without juggling five different apps.",
+    "primary":   { "label": "Download for iOS",   "href": "https://apps.apple.com/app/unitracker" },
+    "secondary": { "label": "Get it on Android",  "href": "https://play.google.com/store/apps/details?id=com.unitracker" },
+    "stats": [
+      { "value": "4.8", "label": "rating",  "sub": "App Store",   "variant": "solid" },
+      { "value": "06",  "label": "modules", "sub": "one app",     "variant": "dashed" },
+      { "value": "00",  "label": "to start","sub": "free",        "variant": "coral" }
+    ],
+    "meta": "↳ &nbsp; Free on the App Store &nbsp; · &nbsp; iOS 16 and later",
+    "index": [
+      { "num": "01", "label": "Capture"  },
+      { "num": "02", "label": "Organize", "active": true },
+      { "num": "03", "label": "Track"    },
+      { "num": "04", "label": "Improve"  }
+    ],
+    "annotations": {
+      "tl": "FIG. 01 / UT-26",
+      "tr": "Plate Nº 08",
+      "bl": "Build · iOS 2.4",
+      "br": "Captured in&nbsp;<span style='color:var(--coral);'>UniTracker</span>"
+    }
+  },
+
+  "about": {
+    "label": "About the app",
+    "ix": "· Nº 02",
+    "headline": [
+      { "text": "Made by students who got tired of the " },
+      { "text": "chaos", "em": true },
+      { "text": ".", "dot": true }
+    ],
+    "lead": "Most students keep a degree spread across a notes app, a calendar, a group chat, and memory. UniTracker brings it together: courses, tasks, attendance, and notes in one place. Your data stays <code class='code-inline'>private</code> &mdash; we can&rsquo;t see it, other students can&rsquo;t, and we never sell it.",
+    "cta_label": "Read the docs",
+    "cta_href": "https://docs.unitracker.store/",
+    "footer_text": "Capture · Organize · Track · Improve",
+    "stamp_top": "Student practice",
+    "stamp_bottom": "Est. MMXXVI",
+    "side_note": "From the first<br/>lecture to final<br/>results, every term<br/>stays in one<br/>place.",
+    "caption": {
+      "bold": "Courses · deadlines · attendance · progress.",
+      "rest": "(UniTracker, MMXXVI)"
+    }
+  },
+
+  "capabilities": {
+    "label": "Features",
+    "ix": "· Nº 03",
+    "headline": [
+      { "text": "Six features for the " },
+      { "text": "whole degree", "em": true },
+      { "text": ".", "dot": true }
+    ],
+    "lead": "Each one handles a single part of student life, so nothing important slips through the cracks.",
+    "ribbon": "<b>UNITRACKER</b> &nbsp;·&nbsp; FEATURE MATRIX &nbsp;·&nbsp; UT/26",
+    "cards": [
+      {
+        "num": "01",
+        "tag": "Courses",
+        "icon_svg": "<rect x='3.5' y='4' width='17' height='16' rx='1.5'/><path d='M7 9h10M7 13h7'/>",
+        "title": "Course\nManagement",
+        "body": "Keep every course, grade, and credit in order, so the whole degree stays in a single view.",
+        "href": "https://docs.unitracker.store/"
+      },
+      {
+        "num": "02",
+        "tag": "Tasks",
+        "icon_svg": "<path d='M5 7l3 3 5-6'/><path d='M5 15l3 3 5-6'/><path d='M16 8h4M16 16h4'/>",
+        "title": "Task\nTracking",
+        "body": "Assignments, readings, and exams with reminders, so no deadline catches you off guard.",
+        "href": "https://docs.unitracker.store/"
+      },
+      {
+        "num": "03",
+        "tag": "Calendar",
+        "icon_svg": "<rect x='3.5' y='5' width='17' height='15' rx='1.5'/><path d='M3.5 9h17M8 3v4M16 3v4'/>",
+        "title": "Smart\nCalendar",
+        "body": "See every class and deadline together, by week, by month, or across the whole term.",
+        "href": "https://docs.unitracker.store/"
+      },
+      {
+        "num": "04",
+        "tag": "Analytics",
+        "icon_svg": "<path d='M4 20V10M10 20V4M16 20v-8M22 20h-20'/>",
+        "title": "Progress\nAnalytics",
+        "body": "See how the term is going: grade averages, attendance, and how they move over time.",
+        "href": "https://docs.unitracker.store/"
+      }
+    ]
+  },
+
+  "labs": {
+    "label": "Modules",
+    "ix": "· Nº 04",
+    "headline": [
+      { "text": "Six modules for " },
+      { "text": "every part", "em": true },
+      { "text": " of the term" },
+      { "text": ".", "dot": true }
+    ],
+    "pills": [
+      { "label": "All",      "count": "06", "active": true },
+      { "label": "Plan",     "count": "03" },
+      { "label": "Track",    "count": "02" },
+      { "label": "Review",   "count": "02" },
+      { "label": "Notes",    "count": "01" }
+    ],
+    "meta": {
+      "ring": "06",
+      "bold": "Shipping modules",
+      "sub": "built with students<br/>refined every term<br/>private by default"
+    },
+    "cards": [
+      { "badge": "Plan",   "num": "Nº 01", "year": "2026", "title": "Courses",      "body": "Every class, credit, and grade in one organised list.", "href": "https://docs.unitracker.store/" },
+      { "badge": "Plan",   "num": "Nº 02", "year": "2026", "title": "Tasks",        "body": "A running list of what&rsquo;s due, with reminders before it&rsquo;s late.",     "href": "https://docs.unitracker.store/" },
+      { "badge": "Plan",   "num": "Nº 03", "year": "2026", "title": "Calendar",     "body": "Classes and deadlines on a calendar that syncs with the rest of your life.", "href": "https://docs.unitracker.store/" },
+      { "badge": "Track",  "num": "Nº 04", "year": "2026", "title": "Attendance",   "body": "Mark each class present or absent and watch your attendance percentage stay accurate.", "href": "https://docs.unitracker.store/" },
+      { "badge": "Notes",  "num": "Nº 05", "year": "2026", "title": "Notes",        "body": "Lecture notes and study material, filed next to the course they belong to.", "href": "https://docs.unitracker.store/" }
+    ],
+    "progress": { "total": 6, "filled": 5 },
+    "foot": "05 / 06 MODULES &nbsp;·&nbsp; <a class='library-link' href='https://docs.unitracker.store/' target='_blank' rel='noreferrer noopener' style='color:var(--coral);'>READ THE DOCS →</a>"
+  },
+
+  "method": {
+    "label": "Method",
+    "ix": "· Nº 05",
+    "headline": [
+      { "text": "From a messy " },
+      { "text": "syllabus", "em": true },
+      { "text": " to a term you can see" },
+      { "text": ".", "dot": true }
+    ],
+    "right": "Four habits, repeated each term. UniTracker makes each one take seconds instead of an afternoon.",
+    "steps": [
+      { "num": "01", "title": "Capture",  "body": "Add your courses, credits, and key dates once. Setup takes a few minutes, then it&rsquo;s done." },
+      { "num": "02", "title": "Organize", "body": "Every task lands on your calendar automatically, sorted by what&rsquo;s due first." },
+      { "num": "03", "title": "Track",    "body": "Mark attendance and check off work as you go. Where you stand is always one tap away." },
+      { "num": "04", "title": "Improve",  "body": "See your grades and attendance over time, and start the next term ahead of this one." }
+    ],
+    "foot_left": "Small habits, kept up. That&rsquo;s the whole method.",
+    "foot_right_bold": "docs.unitracker.store",
+    "foot_right_rest": "Free"
+  },
+
+  "work": {
+    "label": "Selected screens",
+    "headline": [
+      { "text": "The screens students open " },
+      { "text": "every day", "em": true },
+      { "text": " of the " },
+      { "text": "term", "em": true },
+      { "text": ".", "dot": true }
+    ],
+    "link_label": "Read the documentation",
+    "link_href": "https://docs.unitracker.store/",
+    "cards": [
+      {
+        "small_label": "Daily screen",
+        "index": "01 / 06",
+        "title": "The Dashboard",
+        "body": "Today&rsquo;s classes, what&rsquo;s due, and where you stand &mdash; all on the first screen you see.",
+        "year": "2026 · HOME",
+        "tag": "DEFAULT"
+      },
+      {
+        "small_label": "Learn the app",
+        "index": "06 / 06",
+        "title": "Documentation",
+        "body": "Step-by-step guides for every feature, plus a public board where students request what we build next.",
+        "year": "2026 · DOCS",
+        "tag": "GUIDE"
+      }
+    ]
+  },
+
+  "testimonial": {
+    "label": "Students",
+    "ix": "· Nº 06",
+    "quote": [
+      { "text": "I used to track everything across three apps and a wall of " },
+      { "text": "sticky notes", "em": true },
+      { "text": ". Now it&rsquo;s the first thing I open " },
+      { "text": "every morning", "em": true },
+      { "text": "." }
+    ],
+    "author": { "initial": "s", "name": "A second-year student", "title": "Using UniTracker since orientation" },
+    "partners_text": "Used by students on campuses around the world.",
+    "partners": [
+      { "glyph_svg": "<path d='M20 4l16 9v9l-16 9-16-9v-9z'/>",                                           "name": "Harvard",  "role": "Cambridge", "href": "https://apps.apple.com/app/unitracker" },
+      { "glyph_svg": "<rect x='6' y='6' width='5' height='18'/><rect x='15' y='6' width='5' height='18'/><rect x='24' y='6' width='5' height='18'/>", "name": "MIT",      "role": "Cambridge", "href": "https://apps.apple.com/app/unitracker" },
+      { "glyph_svg": "<path d='M5 24L20 6L35 24M12 18h16'/>",                                             "name": "Stanford", "role": "Stanford",  "href": "https://apps.apple.com/app/unitracker" },
+      { "glyph_svg": "<circle cx='20' cy='15' r='11'/><path d='M20 4v22M9 15h22'/>",                       "name": "Oxford",   "role": "Oxford",    "href": "https://apps.apple.com/app/unitracker" },
+      { "glyph_svg": "<path d='M6 24V6h6l8 12V6h6v18'/>",                                                  "name": "NYU",      "role": "New York",  "href": "https://apps.apple.com/app/unitracker" }
+    ],
+    "read_more_label": "See it on the App Store",
+    "read_more_href": "https://apps.apple.com/app/unitracker"
+  },
+
+  "cta": {
+    "label": "Start the term organized",
+    "ix": "· Nº 07",
+    "headline": [
+      { "text": "Set the term up " },
+      { "text": "in one evening", "em": true },
+      { "text": ".", "dot": true }
+    ],
+    "lead": "UniTracker is free to start on iOS and Android. Download it tonight, add your courses, and walk into week one already organised.",
+    "primary": { "label": "Download for iOS", "href": "https://apps.apple.com/app/unitracker" },
+    "ribbon": "UNITRACKER &nbsp;·&nbsp; FIN."
+  },
+
+  "wire": {
+    "title": "On campus",
+    "cities": [
+      { "name": "Harvard",   "coord": "42.37°N" },
+      { "name": "MIT",       "coord": "42.36°N" },
+      { "name": "Stanford",  "coord": "37.43°N" },
+      { "name": "Oxford",    "coord": "51.75°N" },
+      { "name": "Cambridge", "coord": "52.20°N" },
+      { "name": "NYU",       "coord": "40.73°N" },
+      { "name": "Toronto",   "coord": "43.66°N" },
+      { "name": "Melbourne", "coord": "37.80°S" },
+      { "name": "Singapore", "coord": "1.35°N"  },
+      { "name": "Berlin",    "coord": "52.52°N" },
+      { "name": "Madrid",    "coord": "40.42°N" },
+      { "name": "Tokyo",     "coord": "35.68°N" }
+    ],
+    "contributors": [
+      { "handle": "Courses",    "role": "plan",   "href": "https://docs.unitracker.store/" },
+      { "handle": "Tasks",      "role": "plan",   "href": "https://docs.unitracker.store/" },
+      { "handle": "Calendar",   "role": "plan",   "href": "https://docs.unitracker.store/" },
+      { "handle": "Attendance", "role": "track",  "href": "https://docs.unitracker.store/" },
+      { "handle": "Notes",      "role": "notes",  "href": "https://docs.unitracker.store/" },
+      { "handle": "Statistics", "role": "review", "href": "https://docs.unitracker.store/" },
+      { "handle": "you",        "role": "be next","href": "https://apps.apple.com/app/unitracker" }
+    ]
+  },
+
+  "footer": {
+    "brand_description": "Courses, tasks, attendance, and notes in one private app for students. Free on <a class='inline-link' href='https://apps.apple.com/app/unitracker' target='_blank' rel='noreferrer noopener'>iOS</a> and <a class='inline-link' href='https://play.google.com/store/apps/details?id=com.unitracker' target='_blank' rel='noreferrer noopener'>Android</a>.",
+    "brand_cta": {
+      "label": "Download for iOS",
+      "href": "https://apps.apple.com/app/unitracker",
+      "meta": "iOS 16+ · Free"
+    },
+    "columns": [
+      { "title": "App",     "links": [
+        { "label": "Features",   "href": "#capabilities" },
+        { "label": "Modules",    "href": "#labs" },
+        { "label": "Method",     "href": "#method" },
+        { "label": "Screens",    "href": "#work" }
+      ]},
+      { "title": "Get it",  "links": [
+        { "label": "App Store",  "href": "https://apps.apple.com/app/unitracker" },
+        { "label": "Google Play","href": "https://play.google.com/store/apps/details?id=com.unitracker" },
+        { "label": "iOS 16+",    "href": "https://apps.apple.com/app/unitracker" },
+        { "label": "Android",    "href": "https://play.google.com/store/apps/details?id=com.unitracker" }
+      ]},
+      { "title": "Support", "links": [
+        { "label": "Documentation","href": "https://docs.unitracker.store/" },
+        { "label": "Feedback",     "href": "https://unitracker.userjot.com/board/all" },
+        { "label": "Privacy",      "href": "https://www.unitracker.store/privacy" },
+        { "label": "Terms",        "href": "https://www.unitracker.store/terms" }
+      ]},
+      { "title": "Learn",   "links": [
+        { "label": "Getting started","href": "https://docs.unitracker.store/" },
+        { "label": "Courses & grades","href": "https://docs.unitracker.store/" },
+        { "label": "Attendance",     "href": "https://docs.unitracker.store/" },
+        { "label": "Statistics",     "href": "https://docs.unitracker.store/" }
+      ]}
+    ],
+    "mega": [
+      { "text": "Uni " },
+      { "text": "Tracker", "em": true },
+      { "text": "." }
+    ]
+  },
+
+  "imagery": {
+    "strategy": "bring-your-own",
+    "assets_path": "./assets/",
+    "provider": "fal"
+  }
+}
