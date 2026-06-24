@@ -335,7 +335,7 @@
 
   "imagery": {
     "strategy": "bring-your-own",
-    "assets_path": "./assets/",
+    "assets_path": "https://pub-04bfe88e5d5349cdb30b816aee503b47.r2.dev/Projects/Unitracker/",
     "provider": "fal"
   }
 }
