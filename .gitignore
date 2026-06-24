@@ -26,8 +26,8 @@ vite.config.*.timestamp-*
 *.artifact.json
 
 # ── Build scaffolding / scratch (regenerated, not served) ───────
-# Unused SVG placeholder twins — the page uses the .png collages.
-assets/*.svg
+# Image assets are hosted from R2; keep local generated copies out of Git.
+assets/
 build.mjs
 compose.mjs
 # One-off screenshots dropped in during iteration
