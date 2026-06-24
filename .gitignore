@@ -1,0 +1,35 @@
+# ── OS / editor cruft ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# ── Dependencies / build output ─────────────────────────────────
+node_modules/
+dist/
+build/
+.cache/
+
+# ── Vite ────────────────────────────────────────────────────────
+.vite/
+vite.config.*.timestamp-*
+
+# ── Environment / secrets ───────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Open Design internals (not part of the published site) ──────
+.od-skills/
+.od/
+*.artifact.json
+
+# ── Build scaffolding / scratch (regenerated, not served) ───────
+# Unused SVG placeholder twins — the page uses the .png collages.
+assets/*.svg
+build.mjs
+compose.mjs
+# One-off screenshots dropped in during iteration
+CleanShot*.png
+*-CleanShot-*.png
