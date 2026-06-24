@@ -73,7 +73,7 @@ body::before {
   background-image:
     radial-gradient(circle at 12% 18%, rgba(106, 92, 56, 0.07) 0, transparent 28%),
     radial-gradient(circle at 88% 72%, rgba(106, 92, 56, 0.06) 0, transparent 32%),
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.18  0 0 0 0 0.16  0 0 0 0 0.12  0 0 0 0.06 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+    url("./assets/paper-noise.svg");
   background-size: auto, auto, 240px 240px;
   mix-blend-mode: multiply;
   opacity: 0.92;
@@ -1263,7 +1263,7 @@ section.tight { padding: 90px 0; }
   inset: 0;
   pointer-events: none;
   background-image:
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n2'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 0.95  0 0 0 0 0.85  0 0 0 0.05 0'/></filter><rect width='100%' height='100%' filter='url(%23n2)'/></svg>");
+    url("./assets/dark-paper-noise.svg");
   background-size: 240px 240px;
   opacity: 0.6;
   mix-blend-mode: screen;
@@ -2017,19 +2017,7 @@ footer {
 </div>
 <div class="shell">
 
-<div class="topbar" data-od-id="topbar">
-  <div class="container topbar-inner">
-    <span><b>OD / 2026</b> &nbsp;·&nbsp; Vol. 01 / Term Nº 01</span>
-    <span class="mid">
-      <span>Filed under <b class="coral">Academic · Productivity</b></span>
-      <span>Free · iOS &amp; Android · Built for students</span>
-    </span>
-    <span class="right">
-      <a class="topbar-link" href="https://apps.apple.com/app/unitracker/releases" target="_blank" rel="noreferrer noopener"><span class="pulse"></span>Live · iOS &amp; Android</a>
-      <span><b>EN</b></span>
-    </span>
-  </div>
-</div>
+
 
 <header class="nav" data-od-id="nav">
   <div class="container nav-inner">
@@ -2694,6 +2682,7 @@ footer {
     window.addEventListener('scroll', onScroll, { passive: true });
   })();
 </script>
+
 
 
 
